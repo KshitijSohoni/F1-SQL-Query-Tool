@@ -6,7 +6,7 @@ F1 SQl Quer Tool is an AI tool designed to provide F1 race statistics through na
 
 - **Natural Language Interface:** Users can ask questions in plain English, such as "Which driver has won the most races?"
 - **Query Generation:** The LLM generates SQL queries from natural language inputs, ensuring accuracy in responses.
-- **Data Source:** The project relies on a SQLite table structured as follows:
+- **Data Source:** The project relies on a SQLite table on dataabout the F1 2023 season results structured as follows:
 
   | Track    | Position | No | Driver         | Team                         | Starting Grid | Laps | Time/Retired | Points | Set Fastest Lap | Fastest Lap Time |
   |----------|----------|----|----------------|------------------------------|---------------|------|--------------|--------|-----------------|------------------|
